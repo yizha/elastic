@@ -287,6 +287,5 @@ type UpdateResponse struct {
 	Type      string     `json:"_type"`
 	Id        string     `json:"_id"`
 	Version   int        `json:"_version"`
-	Created   bool       `json:"created"`
-	GetResult *GetResult `json:"get"`
+	Result    string     `json:"result"`
 }

@@ -205,4 +205,5 @@ type DeleteResponse struct {
 	Type    string `json:"_type"`
 	Id      string `json:"_id"`
 	Version int64  `json:"_version"`
+	Result  string `json:"result"`
 }
